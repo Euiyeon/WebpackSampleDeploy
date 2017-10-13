@@ -7,8 +7,7 @@
     "clean": "rimraf dist",
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
-    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages",
-    "start": "node server.js"
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "repository": "https://github.com/Euiyeon/WebpackSampleDeploy.git",
   "author": "",
